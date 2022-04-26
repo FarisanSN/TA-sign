@@ -1,0 +1,20 @@
+{
+  "name": "pdf_sign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Richard Oliver Bray",
+  "license": "MIT",
+  "dependencies": {
+    "node-forge": "^1.3.0",
+    "node-signpdf": "^1.4.1",
+    "npm-check-updates": "^12.5.4",
+    "pdf-lib": "^1.17.1"
+  }
+}
